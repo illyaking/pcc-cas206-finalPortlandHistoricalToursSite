@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<!-- 
+Assignment Name: Final Project
+File Name: index.html
+Date: 08/25/18
+Programmer: Illya King 
+-->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+     <title>Portland Historical Tours</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="styles/portland.css">
+     <link rel="shortcut icon" href="images/logo.png"/>
+    </head>
+    <body>
+    <div id="wrapper">
+        <header onclick="location.href='index.html';" style="cursor:pointer;">
+            <h1>Portland Historical Tours</h1>
+        </header>
+        <nav class="topmenu">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a>Tours <span class="desktop">&#9660;</span></a>
+                        <ul>
+                            <li><a href="downtown.html">Downtown</a></li>
+                            <li><a href="growth.html">Growth</a></li>
+                            <li><a href="landmarks.html">Landmarks</a></li>
+                            </ul></li>
+                    </ul>
+            </nav>
+            <div class="cityscape">
+            <span>
+            For over 33 years we have offered tours for Portland visitors and residents alike through our family business.
+            </span>     
+            </div>
+            <main>
+            <div id="travelboxes">
+            <div class="boxes" onclick="location.href='downtown.html';" style="cursor:pointer;">
+            <img class="polaroid" src="images/downtown_tour_small.png" alt="Downtown Tours">
+            <h3>Downtown Tours</h3>
+            <p>This walking only tour provides a glimpse into the natural, architectural, and cultural history of downtown Portland.</p>
+            </div>
+            <div class="boxes" onclick="location.href='growth.html';" style="cursor:pointer;">
+            <img class="polaroid" src="images/growth_tour_small.png" alt="Growth Tour">
+            <h3>Growth Tours</h3>
+            <p>This tour offers an insightful experience, by our very educated tour guides, about the history of Portland's growth. </p>
+            </div>
+            <div class="boxes" onclick="location.href='landmarks.html';" style="cursor:pointer;">
+            <img class="polaroid" src="images/landmarks_tour_small.png" alt="Landmarks Tours">
+            <h3>Landmark Tours</h3>
+            <p>This tour covers all of Portland's famous landmarks and must see spots. </p>
+            </div>
+            </div>
+        </main>
+        <footer>
+                <ul class="nav2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            <br class="clearleft">
+            Portland Historical Tours 1200 NW Naito Parkway Portland, OR 97209 <br class="mobile"><a class="mobile" href="tel:888-555-5555"><strong>503-555-1234</strong></a><span class="desktop">503-555-1234</span><br>
+                Copyright @ 2018 Historical Tours Portland<br>
+        </footer>
+        </div>
+        <!-- End of weekly module --> 
+    </body>
+</html>

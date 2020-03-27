@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<!-- 
+Assignment Name: Final Project
+File Name: reservations.html
+Date: 08/26/18
+Programmer: Illya King 
+-->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+     <title>Portland Historical Tours :: Reservations</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="styles/portland.css">
+     <link rel="shortcut icon" href="images/logo.png"/>
+    </head>
+    <body>
+    <div id="wrapper">
+        <header onclick="location.href='index.html';" style="cursor:pointer;">
+            <h1>Portland Historical Tours</h1>
+        </header>
+        <nav class="topmenu">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a>Tours <span class="desktop">&#9660;</span></a>
+                        <ul>
+                            <li><a href="downtown.html">Downtown</a></li>
+                            <li><a href="growth.html">Growth</a></li>
+                            <li><a href="landmarks.html">Landmarks</a></li>
+                            </ul></li>
+                    </ul>
+            </nav>
+            <div class="cityscape">
+            <span>
+            We are confident you will love any of our Portland tours with the help of our generous guides.
+            </span>    
+            </div>
+        <main>
+            <div class="general">
+            <p><strong>General Information</strong></p>
+            <p>The tours leave daily on the hour between the hours of 9:00 AM and 3:00 PM. The last tour leaves at 3:00 PM.</p>     
+            <p>We accept cash, credit card. VISA and MasterCard but no American Express. No payment accepted online.</p>
+            <p>We offer online reservations. Pay in person when you show up for the tour. Arrive 30 minutes in advance to pay.</p>
+            </div>
+            <h2>Book a Reservation</h2>
+        <p>Required information is marked with an asterisk (*).</p>
+        <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+        <label for="myFName">*First Name:</label> <input type="text" name="firstname" id="myFName" required="required">
+        <label for="myLName">*Last Name:</label>  <input type="text" name="lastname" id="myLName" required="required"> 
+        <label for="myEmail">*E-Mail:</label>  <input type="email" name="e-mail" id="myEmail" required="required">
+        <label for="myPhone">Phone:</label>  <input type="tel" name="phone" id="myPhone">
+        <label for="myDate">Tour Date:</label> <input type="date" name="arrival" id="myDate">
+        <label for="myNights">Total Participants:</label> <input type="number" name="nights" id="myNights" min="1" max="14"><br>
+            <p>Does anyone in your party have food or drink sensitivities? If so, what are they?</p>
+            <textarea name="comments" id="myComments" rows="4" cols="34" required="required"></textarea> 
+        <input type="submit" value="Book Today" id="mySubmit">
+        </form>
+            <div class="mobile">
+            <p>The tours leave daily on the hour between the hours of 9:00 AM and 3:00 PM. The last tour leaves at 3:00 PM.</p>     
+            <p>We accept cash, credit card. VISA and MasterCard but no American Express. No payment accepted online.</p>
+            <p>We offer online reservations. Pay in person when you show up for the tour. Arrive 30 minutes in advance to pay.</p>
+            </div>
+        </main>
+        <footer>
+                <ul class="nav2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            <br class="clearleft">
+            Portland Historical Tours 1200 NW Naito Parkway Portland, OR 97209 <br class="mobile"><a class="mobile" href="tel:888-555-5555"><strong>503-555-1234</strong></a><span class="desktop">503-555-1234</span><br>
+                Copyright @ 2018 Historical Tours Portland<br>
+        </footer>
+        </div>
+        <!-- End of weekly module --> 
+    </body>
+</html>

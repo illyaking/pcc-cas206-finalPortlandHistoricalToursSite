@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<!-- 
+Assignment Name: Final Project
+File Name: downtown.html
+Date: 08/25/18
+Programmer: Illya King 
+-->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+     <title>Portland Historical Tours :: Downtown Tours</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="styles/portland.css">
+     <link rel="shortcut icon" href="images/logo.png"/>
+    </head>
+    <body>
+    <div id="wrapper">
+        <header onclick="location.href='index.html';" style="cursor:pointer;">
+            <h1>Portland Historical Tours</h1>
+        </header>
+        <nav class="topmenu">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a>Tours <span class="desktop">&#9660;</span></a>
+                        <ul>
+                            <li><a href="downtown.html">Downtown</a></li>
+                            <li><a href="growth.html">Growth</a></li>
+                            <li><a href="landmarks.html">Landmarks</a></li>
+                            </ul></li>
+                    </ul>
+            </nav>
+        <div class="hero">
+        <img src="images/downtown_tour.png" alt="Downtown Portland">
+        </div>
+        <main>
+            <div class="testimonials">
+            <p>"It was amazing to walk around downtown Portland comparing the images in the booklet to the current building or in some cases disappearance of a building."<br>
+            - Emily</p>
+            </div>
+            <p>Enjoy a walking tour of Portland's days gone by. This walking only tour provides a glimpse into the natural, architectural, and cultural history of downtown Portland. Upon arrival, you will receive a booklet of the 20 locations we will visit throughout this three hour tour. Use this booklet to compare Portland's current landscape with accurate historical context.</p>
+            <div class="info">
+            <strong>What's Included?</strong>
+            <ul>
+            <li>Complimentary tour booklet with Before and After photos and a brief history of each location.</li>
+            <li>Complimentary water</li>
+            </ul>
+            <table>
+                <tr>
+                    <td class="rightalign">Duration:</td>
+                    <td>2 Hours</td>
+                    <td rowspan="4" class="textcenter"><a href="reservations.html"><img src="images/button.jpg" alt="Sign Up Button"></a></td>
+                </tr>
+                <tr>
+                    <td class="rightalign">Transportation:</td>
+                    <td>Walking</td>
+                </tr>
+                <tr>
+                    <td class="rightalign">Food:</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td class="rightalign">Price:</td>
+                    <td>$50</td>
+                </tr>
+                </table>
+                </div>
+        </main>
+        <footer>
+                <ul class="nav2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            <br class="clearleft">
+            Portland Historical Tours 1200 NW Naito Parkway Portland, OR 97209 <br class="mobile"><a class="mobile" href="tel:888-555-5555"><strong>503-555-1234</strong></a><span class="desktop">503-555-1234</span><br>
+                Copyright @ 2018 Historical Tours Portland<br>
+        </footer>
+        </div>
+        <!-- End of weekly module --> 
+    </body>
+</html>

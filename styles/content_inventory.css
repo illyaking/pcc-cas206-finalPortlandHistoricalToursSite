@@ -1,0 +1,37 @@
+body {
+background-color: #eee;
+color: #333;
+font-family: "Arial", sans-serif;
+font-size: .9em;
+}
+
+a {
+        font-weight: bold;
+    text-decoration: none;
+}
+
+h2, dt {
+    font-weight: bolder;
+    font-family: "Times New Roman", serif;
+    font-size: 1.3em;
+}
+
+dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    font-weight: bolder;
+    font-family: "Times New Roman", serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-top: 20px;
+    width:80%;
+}
